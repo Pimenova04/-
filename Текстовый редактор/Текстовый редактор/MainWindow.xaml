@@ -1,0 +1,16 @@
+﻿<Window x:Class="Текстовый_редактор.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Текстовый_редактор"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="445" Width="800" FontSize="20" FontFamily="Times New Roman" Background="#d3c5e4">
+    <Grid>
+        <TextBox x:Name="text" HorizontalAlignment="Center" Height="260" Margin="0,29,0,0" TextWrapping="Wrap" Text="текст" VerticalAlignment="Top" Width="700"/>
+        <Button Content="Открыть" HorizontalAlignment="Left" Height="44" Margin="144,329,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click_1" Background="#9a5ad8" />
+        <Button Content="Сохранить" HorizontalAlignment="Center" Height="44" Margin="0,329,0,0" VerticalAlignment="Top" Width="176" Click="Button_Click_2" Background="#9a5ad8"  />
+        <Button Content="Очистить" HorizontalAlignment="Left" Height="44" Margin="524,329,0,0" VerticalAlignment="Top" Width="148" Click="Button_Click" Background="#9a5ad8"  />
+
+    </Grid>
+</Window>
